@@ -24,6 +24,7 @@ export default function Categories({ categories }) {
     <Layout>
       <Helmet>
         <title>Categories</title>
+        <meta name="facebook-domain-verification" content="ys5soxvk3o15fz21547jbxofp0zu46" />
         <meta name="description" content={metaDescription} />
         <meta property="og:title" content={title} />
         <meta property="og:description" content={metaDescription} />
