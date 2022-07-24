@@ -32,7 +32,7 @@ export default class MyDocument extends Document {
   render() {
     return (
       <Html {...this.helmetHtmlAttrComponents}>
-        <Head><meta name="facebook-domain-verification" content="ys5soxvk3o15fz21547jbxofp0zu46" />{this.helmetHeadComponents}</Head>
+        <Head>{this.helmetHeadComponents}</Head>
         <body {...this.helmetBodyAttrComponents}>
           <Main />
           <NextScript />
